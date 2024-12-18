@@ -1,0 +1,90 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app-header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Styling the registration form */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #3f51b5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #283593;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .app-header h1 {
+    font-size: 1.5rem;
+  }
+
+  form {
+    padding: 20px;
+  }
+}

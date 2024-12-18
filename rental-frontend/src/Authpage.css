@@ -1,0 +1,59 @@
+/* Auth Page Styles */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-toggle {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f4f4f9;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-btn.active {
+    color: #fff;
+    background-color: #3f51b5;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #283593;
+  }
+  
